@@ -25,7 +25,9 @@ section
 
 .my-bg-secondary
 {
-	background-color: #d0d4fc;
+	background-color: #c3befb;
+    /* background-color: #E4D7FF; */
+    
 }
 
 .my-bg-light
@@ -278,4 +280,11 @@ section
     
 .bor-t{
 	border-top: 3px  solid rgba(0, 0, 0,1.00)
+}
+
+/* _______________BORDER__________________ */
+.my-border-top
+{
+
+    border-top: 3px solid rgba(0, 0, 0, 1);
 }
