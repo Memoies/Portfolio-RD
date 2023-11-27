@@ -91,8 +91,8 @@ section
     background-size: cover;
     box-sizing: content-box;
     background-image: url("../img/avatar.JPG");
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
 }
 
 /* _______________TEXTS__________________ */
@@ -145,7 +145,7 @@ section
 {
     width: 100%;
     max-width: 750px;
-    font-size: 30px;
+    font-size: 1.5rem;
     text-align: center;
     font-style: italic;
 	
@@ -154,8 +154,8 @@ section
 .text-line-para
 {
     margin-top: 0;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .text-section
@@ -234,7 +234,7 @@ section
 	text-decoration: none;
 	padding: 8px 15px;
 	border: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     
     margin: 10px;
