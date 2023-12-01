@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Sans&family=Palanquin&family=Pinyon+Script&family=Playfair+Display&display=swap');
+.f-dm{ font-family: 'DM Serif Display';}
+.f-noto{ font-family: 'Noto Sans';}
+.f-pala{ font-family: 'Palanquin';}
+.f-pinyon{ font-family: 'Pinyon Script';}
+.f-play{ font-family: 'Playfair Display';}
+
+
+/* _______________IMGS__________________ */
+.img-avatar
+{
+    display: block;
+    border-radius: 50%;
+    border: 3px solid #567520;
+    background-size: cover;
+    box-sizing: content-box;
+    background-image: url("../img/avatar.JPG");
+    width: 60px;
+    height: 60px;
+}
+
+.hover-effect {
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.hover-effect:hover {
+    transform: scale(1.05); /* Change the scale factor for the desired size increase */
+}
+
+/* _______________TEXTS__________________ */
+
+.text-avatar 
+{
+    display: block;
+    font-size: 36px;
+    font-family:'Noto Sans','Courier New', Courier, monospace ;
+    color: #ffffff;
+    font-weight:400;
+    padding: 0px 0px 0px 30px;
+    margin: 0;
+    text-decoration: none;
+}
+
+@media (max-width: 300px) 
+{
+    .text-avatar  {
+        display: none; 
+    }
+    .img-avatar{
+        display: inline-block;
+    }
+}
+
+.text-home
+{
+    width: 100%;
+    font-family:'Playfair Display','Courier New', Courier, monospace ;
+    font-weight: bold;
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff
+}
+
+
+
+.subtitle-home
+{
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+	line-height: 2.5rem;
+    color: #ffffff;
+    font-size: 6rem;
+    font-weight: 500;
+    font-family: 'Pinyon Script';
+}
+
+
+.text-gallery
+{
+    font-size: 6rem;
+    position: relative;
+    font-weight: 400;
+    font-family: 'DM Serif Display';
+    /* font-family: 'Pinyon Script'; */
+    
+    font-family: 'Playfair Display';
+    /* font-family: 'Noto Sans'; */
+    color: #ffffff;
+
+}
+
+.text-gallery-title
+{
+    font-size: 2.5rem;
+    letter-spacing: 0.02em;
+    position: relative;
+    font-weight: 400;
+    font-family: 'DM Serif Display';
+    /* font-family: 'Pinyon Script';
+    
+    font-family: 'Playfair Display'; */
+    /* font-family: 'Noto Sans'; */
+    color: #ffffff;
+
+}
+
+.text-gallery-subtitle
+{
+    font-size: 1.5rem;
+    letter-spacing: 0.02rem;
+    position: relative;
+    font-weight: 100;
+    font-family: 'Noto Sans';
+    /* font-family: 'Pinyon Script'; */
+    
+    /* font-family: 'Playfair Display'; */
+    font-family: 'Palanquin';
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.text-foot-tittle
+{
+    font-family: 'Noto Sans';
+    justify-content: left;
+    font-size: 25px;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+
+.text-foot-para
+{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Palanquin';
+    justify-content: left;
+    line-height: 1.5rem;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+@media (max-width: 1920px) 
+{
+    .subtitle-home {
+        font-size: 6rem;
+        padding-top: 3rem;
+    }
+}
+
+@media (max-width: 900px) 
+{
+    .text-home  {
+        font-size: 4rem; 
+    }
+    .subtitle-home {
+        font-size: 4rem;
+        padding-top: 1rem;
+    }
+}
+
+@media (max-width: 500px) 
+{
+    .text-home  {
+        font-size: 2rem; 
+    }
+    .subtitle-home {
+        font-size: 2rem;
+        padding-top: 0rem;
+    }
+}
+
+
+/* _______________BACKGROUND__________________ */
+
+.my-bg-secondary 
+{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#home
+{
+	height: 100dvh;
+	background-image: url("../img/pandan-banner.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+
+#intro
+{
+	height: 3 00dvh;
+	/* background-color: rgb(27, 41, 1); */
+    background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bg-1
+{
+    background-color: rgba(38, 49, 32, 0.3);
+    border-radius: 1.5rem;
+}
+
+/* 
+.line-with-text {
+    display: inline-block;
+    width: 100px; 
+    border-bottom: 2px solid #ffffff; 
+    margin: 5px 10px 5px 0px;
+  }
+
+.line-in-box {
+    display: flex;
+    align-items: center;
+  } */

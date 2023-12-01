@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&family=Nunito:wght@700;800;900&display=swap');
+ .f-nun{ font-family: 'Nunito';}
+ .f-jose{ font-family: 'Josefin Sans';}
+
 /* _______________SECTION__________________ */
 
 section
@@ -115,6 +120,7 @@ section
     }
 }
 
+
 .text-home
 {
     width: 100%;
@@ -164,6 +170,7 @@ section
     position: relative;
     font-weight: 600;
     font-family: 'Nunito';
+   
 }
 
 .text-section::after

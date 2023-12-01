@@ -4,9 +4,9 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&family=Nunito:wght@700;800;900&display=swap');
- .f-nun{ font-family: 'Nunito';}
- .f-jose{ font-family: 'Josefin Sans';}
+ 
+
+
 *
 {
   scroll-behavior: smooth;
