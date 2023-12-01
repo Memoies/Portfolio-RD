@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Quicksand&family=Roboto&display=swap');
+.f-noto{ font-family: 'Noto Sans';}
+
+
+.my-bg-secondary
+{
+    background-color: rgb(154, 214, 255);
+}
+
+.my-bg
+{
+    background-color: rgba(253, 251, 255, 0.6)
+}
+
+#intro
+{
+    background-color: rgb(196, 231, 255);
+}
+
+#products
+{
+    background-color: rgba(27, 99, 255, 0.253);
+}
+
+/* _______________NAVIGATION__________________ */
+
+.my-link:hover
+{
+	color: #ffffff;
+    text-decoration: none;
+}
+
+.my-nav-link
+{
+	position: relative;
+	font-family: 'Nunito';
+	text-decoration: none;
+	color: #2516D4;
+	font-weight: 800;
+	padding: 5px 30px;
+	font-size:20px;
+}
+
+.my-nav-link::after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 3px;
+	bottom: 0;
+	left: 50%;
+	background-color: #2516D4;
+	transition: width 0.3s;
+	transform: translateX(-50%);
+	
+	
+}
+
+.my-nav-link:hover::after
+{
+	width: 50%;
+}
+
+/* _______________IMGS__________________ */
+.img-avatar
+{
+    display: block;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    background-size: cover;
+    box-sizing: content-box;
+    background-image: url("../img/avatar.JPG");
+    width: 60px;
+    height: 60px;
+}
+
+/* _______________TEXTS__________________ */
+
+.text-avatar 
+{
+    display: block;
+    font-size: 36px;
+    font-family:'Noto Sans','Courier New', Courier, monospace ;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0px 0px 0px 30px;
+    margin: 0;
+}
+
+@media (max-width: 300px) 
+{
+    .text-avatar  {
+        display: none; /* Hide text on smaller screens */
+    }
+}
