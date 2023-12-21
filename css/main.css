@@ -40,6 +40,12 @@ section
     background-color: rgb(241, 241, 241)
 }
 
+.my-bg-light-2
+{
+    /* background-color: rgba(30, 185, 165,0.8) */
+    background-color: rgb(231, 230, 248)
+}
+
 #home
 {
 	height: 100dvh;
@@ -48,6 +54,8 @@ section
 	background-position: center;
     background-size: cover;
 }
+
+
 
 /* _______________NAVIGATION__________________ */
 
