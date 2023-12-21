@@ -145,7 +145,7 @@ section
 #intro
 {
     height: 100dvh;
-    width: 100dvw;
+    /* width: 100dvw; */
 	background-image: url("../img/vt/fish.png");
 	background-repeat: repeat-x;
 	background-position: bottom;
@@ -160,23 +160,25 @@ section
     background-color: #1EB9A5;
 }
 
-#color
+#color_font
 {
     /* height: 100%; */
     background-image: url(../img/vt/color-bg.png);
-    background-size: cover;
-}
-
-#font
-{
-    height: 100%;
-    background-image: url(../img/vt/color-bg.png);
-    background-size: cover;
+    background-repeat: repeat-y;
+    background-size: 100dvw;
 }
 
 /* _______________NAVIGATION__________________ */
 
-.underline-container {
+.hover-effect {
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.hover-effect:hover {
+    transform: scale(1.1); /* Change the scale factor for the desired size increase */
+}
+
+.underline-container-before {
     display: flex;
     justify-content: flex-end;
     width: 100%; /* Adjust the width as needed */
@@ -185,7 +187,22 @@ section
 
 
 
-.underline-container::before {
+.underline-container-before::before {
+    content: '';
+    flex-grow: 1;
+    border-bottom: 1px solid #fff; /* Adjust the color as needed */
+}
+
+.underline-container-after {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; /* Adjust the width as needed */
+    position: relative;
+}
+
+
+
+.underline-container-after::after {
     content: '';
     flex-grow: 1;
     border-bottom: 1px solid #fff; /* Adjust the color as needed */
@@ -233,3 +250,42 @@ section
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(30, 185, 165,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
+
+
+.slider-container {
+    overflow: hidden;
+}
+
+.slider-content-right {
+    display: flex;
+    animation: slideRight 20s linear infinite;
+}
+
+.slider-content-left {
+    display: flex;
+    animation: slideLeft 20s linear infinite;
+}
+
+.slider-item {
+    flex: 0 0 auto;
+    width: 100%;
+    transition: transform 1s ease-in-out;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
