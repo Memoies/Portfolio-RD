@@ -5,10 +5,11 @@
 
 /* _______________SECTION__________________ */
 
-section
+/* .section
 {
-    /* padding-top: 4.5rem; */
-}
+    padding-top: 4.5rem;
+    min-height: 100dvh;
+} */
 
 
 /* _______________IMGS__________________ */
@@ -134,7 +135,7 @@ section
 
 #home
 {
-	height: 100dvh;
+	min-height: 100dvh;
 	background-image: url("../img/vt/banner.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -144,7 +145,7 @@ section
 
 #intro
 {
-    height: 100dvh;
+    min-height: 100dvh;
     /* width: 100dvw; */
 	background-image: url("../img/vt/fish.png");
 	background-repeat: repeat-x;
@@ -156,7 +157,7 @@ section
 
 #logo
 {
-    height: 100%;
+    min-height: 100dvh;
     background-color: #1EB9A5;
 }
 
